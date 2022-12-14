@@ -1,3 +1,15 @@
+=begin
+
+Respirez (Take a Breath)
+Drew Hofer
+CSCI 3725
+December 14, 2022
+
+Respirez, French for "Take a Breath", is a chill, lo-fi inspired song perfect
+for studying, relaxing, or destressing. 
+
+=end
+
 # Starting tempo, decreased throughout
 tempo = 75
 beat = true
@@ -9,7 +21,7 @@ live_loop :beat do
   sleep 1
 end
 
-# Chord Progession 1
+# Chord Progession 1 — "Up"
 3.times do
   sync :beat
   use_synth :hollow
@@ -58,7 +70,7 @@ end
 
 tempo -= 5
 
-# Chord Progression 2
+# Chord Progression 2 — "Continue"
 3.times do
   sync :beat
   use_synth :hollow
@@ -123,7 +135,7 @@ end
 
 tempo -= 5
 
-# Chord Progession 3
+# Chord Progession 3 — "Release"
 3.times do
   sync :beat
   use_synth :dark_ambience
@@ -161,7 +173,7 @@ end
 
 tempo -= 5
 
-# Chord Progession 1
+# Chord Progession 1 "Continue"
 3.times do
   sync :beat
   use_synth :hollow
@@ -210,7 +222,7 @@ end
 
 tempo -= 5
 
-# Chord Progession 3
+# Chord Progession 3 — "Release"
 3.times do
   sync :beat
   use_synth :dark_ambience
@@ -248,7 +260,7 @@ end
 
 tempo -= 5
 
-# Chord Progression 4
+# Chord Progression 4 — "Stop"
 4.times do
   sync :beat
   use_synth :dark_ambience
